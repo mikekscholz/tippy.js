@@ -9,12 +9,12 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "author": "atomiks",
+  "author": "mikekscholz",
   "contributors": [
     "Brett Zamir"
   ],
   "license": "MIT",
-  "bugs": "https://github.com/atomiks/tippyjs/issues",
+  "bugs": "https://github.com/mikekscholz/tippyjs/issues",
   "homepage": "https://atomiks.github.io/tippyjs/",
   "keywords": [
     "tooltip",
@@ -34,7 +34,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atomiks/tippyjs.git"
+    "url": "git+https://github.com/mikekscholz/tippy.js.git"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=dev rollup -c .config/rollup.config.js --watch",
