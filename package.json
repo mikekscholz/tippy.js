@@ -37,18 +37,6 @@
     "url": "git+https://github.com/mikekscholz/tippy.js.git"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=dev rollup -c .config/rollup.config.js --watch",
-    "build": "node build/index.js && rollup -c .config/rollup.config.js && bundlesize",
-    "build:visual": "cross-env NODE_ENV=test rollup -c .config/rollup.config.js",
-    "serve": "serve test/visual",
-    "test:dom": "jest unit integration --coverage",
-    "test:functional": "jest functional",
-    "test:types": "tsc && tsd",
-    "test": "yarn test:types && yarn test:dom && yarn test:functional",
-    "lint": "eslint . --ext .ts,.js",
-    "format": "prettier --write \"**/*.{js,ts,json,md,mdx,scss,css}\" --ignore-path .config/.prettierignore",
-    "clean": "rimraf dist/ themes/ animations/ coverage/ .devserver/ .cache/ ./index.d.ts",
-    "prepare": "yarn clean && yarn build"
   },
   "babel": {
     "extends": "./.config/babel.config"
