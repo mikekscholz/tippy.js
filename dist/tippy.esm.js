@@ -125,7 +125,7 @@ function getArrayOfElements(value) {
 function setTransitionDuration(els, value) {
   els.forEach(function (el) {
     if (el) {
-      el.style.transitionDuration = value + "ms";
+      // el.style.transitionDuration = value + "ms";
     }
   });
 }
